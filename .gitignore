@@ -6,3 +6,7 @@ target/
 .DS_Store
 .idea/
 .vscode/
+
+# Ignorar archivos temporales de macOS
+.DS_Store
+**/._*
