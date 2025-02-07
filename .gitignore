@@ -1,0 +1,8 @@
+# Ignorar archivos grandes y carpetas innecesarias
+node_modules/
+target/
+*.log
+*.tmp
+.DS_Store
+.idea/
+.vscode/
