@@ -14,3 +14,7 @@ target/
 * text=auto
 *.js text eol=lf
 *.txt text eol=lf
+
+# Ignorar librerías externas
+vendor/
+node_modules/
