@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html class="sticky-header-reveal">
+
+<head>
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Porto - Responsive HTML5 Template</title>
+
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Porto - Responsive HTML5 Template">
+    <meta name="author" content="okler.net">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+    <!-- Web Fonts  -->
+    <link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light&display=swap" rel="stylesheet" type="text/css">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="vendor/animate/animate.compat.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/theme-elements.css">
+    <link rel="stylesheet" href="css/theme-blog.css">
+    <link rel="stylesheet" href="css/theme-shop.css">
+
+    <!-- Current Page CSS -->
+    <link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css">
+
+    <!-- Skin CSS -->
+    <link id="skinCSS" rel="stylesheet" href="css/skins/default.css">
+
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Head Libs -->
+    <script src="vendor/modernizr/modernizr.min.js"></script>
+
+
+    <!--Financial Running Boostrap SASS-->
+    <link rel="stylesheet" href="~/boostrap/src/financialrunning2023.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <!-- FONT AWESOME -->
+    <script src="https://use.fontawesome.com/c3de865f57.js"></script>
+
+
+</head>
+
+<body data-plugin-page-transition>
+
+
+    <div class="body">
+        <header id="header" class="header-transparent header-semi-transparent header-semi-transparent-dark header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
+            <div class="header-body border-top-0 bg-dark box-shadow-none">
+                <div class="header-container container">
+                    <div class="header-row">
+                        <div class="header-column">
+                            <div class="header-row">
+                                <div class="header-logo">
+                                    <a asp-area="" asp-controller="Home" asp-action="Index">
+                                        <img alt="Porto" width="180px" height="auto" src="~/img/financialrunning.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-column justify-content-end">
+                            <div class="header-row">
+                                <div class="header-nav header-nav-links header-nav-dropdowns-dark header-nav-light-text order-2 order-lg-1">
+                                    <div class="header-nav-main header-nav-main-mobile-dark header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
+                                        <nav class="collapse">
+                                            <!-- TAMAÑO Y COLOR DE LINKS DEL HEADER -->
+                                            <style>
+                                                /*  COLOR DEL HOVER DEL HEADER*/
+                                                
+                                                .collapse a:hover {
+                                                    color: #FFDE00 !important;
+                                                }
+                                                /* TAMAÑO DE LA LETRAS DEL HEADER */
+                                                
+                                                .dropdown-item {
+                                                    font-size: 0.78em !important;
+                                                }
+                                            </style>
+                                            <ul class="nav nav-pills" id="mainNav">
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Index">
+                                                        Home
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown dropdown-mega">
+                                                    <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Convocatoria">
+                                                        Convocatoria
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item " asp-area="" asp-controller="Home" asp-action="Reglamento">
+                                                        Reglamento
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Premiacion">
+                                                        Premiación
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Entrega_Corredores">
+                                                        Corredores
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle">
+                                                        Otros
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li>
+                                                            <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Galeria">
+                                                                Galeria
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Merchandising">
+                                                                Eventos Pasados
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Contacto">
+                                                        Contacto
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
+                                        <i class="fas fa-bars"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!--  HEADER MIO  FIN-->
+
+    <img src="IMG_5223.jpg" alt="">
+
+
+
+    <!--   -->
+
+    <!-- INICIO PREGUNTA E ICONS -->
+    <div class="contenedor-pregunta ">
+        <!-- PREGUNTA -->
+        <div class="pregunta ">
+            <h3>
+                ¿POR QUÉ <br>
+                <font color="#FFBA00 " style="font-style: italic; "> participar?</font>
+            </h3>
+        </div>
+        <!-- FIN PREGUNTA -->
+
+        <!-- ICONOS -->
+        <div class="icons ">
+            <div class="padd-iconos ">
+                <div class="row ">
+                    <div class="col-lg-3 ">
+                        <style>
+                            .col-lg-3 {
+                                width: 33%;
+                            }
+                        </style>
+                        <div class="featured-boxes featured-boxes-style-4 ">
+                            <div class="featured-box featured-box-primary appear-animation " data-appear-animation="fadeInUp " data-appear-animation-delay="300 ">
+                                <div class="box-content ">
+                                    <!-- ICONO SVG -->
+                                    <svg xmlns="http://www.w3.org/2000/svg " class="icon icon-tabler icon-tabler-cash " width="64 " height="64 " viewBox="0 0 24 24 " stroke-width="2 " stroke="#FFBA00 " fill="none " stroke-linecap="round
+        " stroke-linejoin="round ">
+                                    <path stroke="none " d="M0 0h24v24H0z " fill="none " />
+                                    <rect x="7 " y="9 " width="14 " height="10 " rx="2 " />
+                                    <circle cx="14 " cy="14 " r="2 " />
+                                    <path d="M17 9v-2a2 2 0 0 0 -2 -2h-10a2 2 0 0 0 -2 2v6a2 2 0 0 0 2 2h2 " />
+                                </svg>
+                                    <h4 class="font-weight-normal text-5 "><strong class="font-weight-extra-bold " style="color: white !important; ">Premios en
+                                        efectivo</strong></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="featured-boxes featured-boxes-style-4 ">
+                            <div class="featured-box featured-box-primary appear-animation " data-appear-animation="fadeInUp " data-appear-animation-delay="600 ">
+                                <div class="box-content ">
+                                    <!-- ICONO SVG -->
+                                    <svg xmlns="http://www.w3.org/2000/svg " class="icon icon-tabler icon-tabler-run " width="64 " height="64 " viewBox="0 0 24 24 " stroke-width="2 " stroke="#FFBA00 " fill="none " stroke-linecap="round
+        " stroke-linejoin="round ">
+                                    <path stroke="none " d="M0 0h24v24H0z " fill="none " />
+                                    <circle cx="13 " cy="4 " r="1 " />
+                                    <path d="M4 17l5 1l.75 -1.5 " />
+                                    <path d="M15 21l0 -4l-4 -3l1 -6 " />
+                                    <path d="M7 12l0 -3l5 -1l3 3l3 1 " />
+                                </svg>
+                                    <h4 class="font-weight-normal text-5 "><strong class="font-weight-extra-bold " style="color: white !important; ">Corre junto
+                                        a la élite del
+                                        medio financiero</strong></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="featured-boxes featured-boxes-style-4 ">
+                            <div class="featured-box featured-box-primary appear-animation " data-appear-animation="fadeInUp " data-appear-animation-delay="900 ">
+                                <div class="box-content ">
+                                    <!-- ICONO SVG -->
+                                    <svg xmlns="http://www.w3.org/2000/svg " class="icon icon-tabler icon-tabler-friends " width="64 " height="64 " viewBox="0 0 24 24 " stroke-width="2 " stroke="#FFBA00 " fill="none " stroke-linecap="round
+        " stroke-linejoin="round ">
+                                    <path stroke="none " d="M0 0h24v24H0z " fill="none " />
+                                    <circle cx="7 " cy="5 " r="2 " />
+                                    <path d="M5 22v-5l-1 -1v-4a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4l-1 1v5 " />
+                                    <circle cx="17 " cy="5 " r="2 " />
+                                    <path d="M15 22v-4h-2l2 -6a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1l2 6h-2v4 " />
+                                </svg>
+                                    <h4 class="font-weight-normal text-5 "><strong class="font-weight-extra-bold " style="color: white !important; ">Rama
+                                        femenil y
+                                        varonil</strong></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIN ICONOS -->
+    </div>
+    <!-- FIN PREGUNTA E ICONS -->
+
+    <!-- STICKKY BAR SOCIAL MEDIA -->
+    <div class="icon-bar ">
+        <a target="_blank " href="https://www.facebook.com/FinancialRunning/ " class="facebook "><i
+            class="fa fa-facebook "></i></a>
+        <a target="_blank " href="https://twitter.com/FinancialRunner " class="twitter "><i class="fa fa-twitter "></i></a>
+        <a target="_blank " href="https://www.instagram.com/financialrunning/ " class="instagram "><i
+            class="fa fa-instagram "></i></a>
+    </div>
+    <!-- FIN STICKY BAR -->
+
+
+
+
+    <!-- INFO CONVOCATORIA -->
+    <div class="contenedor-single ">
+
+        <div class="centrado appear-animation " data-appear-animation="fadeInUp " data-appear-animation-delay="0 " data-appear-animation-duration="1s ">
+            <p style="font-weight: bold; font-size: max(2.5vw, 25px); ">
+                Premios en efectivo
+            </p>
+
+            <table class="tab-conv ">
+                <tr class="tr-conv ">
+                    <td>
+                        <p style="font-weight: bold; ">
+                            Absoluto femenil 6 kms
+                        </p>
+                        <p>
+                            1º $15,000 <br> 2º $10,000 <br> 3º $5,000 <br>
+                        </p>
+                    </td>
+                    <td></td>
+                    <td>
+                        <p style="font-weight: bold; ">
+                            Absoluto varonil 6 kms
+                        </p>
+                        <p>
+                            1º $15,000 <br> 2º $10,000 <br> 3º $5,000 <br>
+                        </p>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <!-- FIN INFO CONVOCATORIA -->
+
+
+    <div class="contenedor-redu2 interlineado ">
+
+        <p style="font-weight: bold; font-size: max(2.5vw, 25px); ">
+            Notas:
+        </p>
+    </div>
+
+
+    <div class="contenedor2 ">
+        <p style="font-weight: bold; color: #f2da00; font-size: max(2.5vw, 25px); font-style: italic; ">
+            Absoluto varonil 12 kms
+        </p>
+    </div>
+
+
+    <div class="contenedor-redu2 interlineado ">
+        <p>
+            Los ganadores de los premios de las diferentes categorías deberán entregar la documentación correspondiente a RiskMathics para llevar a cabo el proceso interno de alta y llevar el proceso interno para hacer las transferencias de los fondos correspondientes
+            a cada participante. Este proceso toma alrededor de 3 a 4 semanas
+        </p>
+
+        <p style="font-weight: bold; font-size: max(2.5vw, 25px); ">
+            Categoría General libre, rama Femenil y Varonil
+        </p>
+
+
+    </div>
+    <br><br>
+
+    <div class="contenedor2 ">
+        <p style="font-weight: bold; color: #f2da00; font-size: max(2.5vw, 25px); font-style: italic; ">
+            CEREMONIA DE PREMIACIÓN
+        </p>
+    </div>
+
+    <div class="contenedor-redu2 interlineado ">
+        <p>
+            El día de la carrera se premiará a los ganadores absolutos y de categoría presentes y se les entregará trofeo y un cheque simbolico con el monto de dinero que corresponde a su premio, en el lugar se les dará información para hacerles entrega del dinero
+            ganado. Notas importantes: Los ganadores tendrán que presentar INE el día de la carrera para hacerles entrega de la premiación No habrá duplicidad de premios Premio sujeto a retención de impuestos correspondiente a la legislación vigente.
+        </p>
+    </div>
+    <!-- fina premiacion -->
+
+
+
+    <!-- Vendor -->
+    <script src=" vendor/jquery/jquery.min.js "></script>
+    <script src="vendor/jquery.appear/jquery.appear.min.js "></script>
+    <script src="vendor/jquery.easing/jquery.easing.min.js "></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.min.js "></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+    <script src="vendor/jquery.validation/jquery.validate.min.js "></script>
+    <script src="vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js "></script>
+    <script src="vendor/jquery.gmap/jquery.gmap.min.js "></script>
+    <script src="vendor/lazysizes/lazysizes.min.js "></script>
+    <script src="vendor/isotope/jquery.isotope.min.js "></script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js "></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js "></script>
+    <script src="vendor/vide/jquery.vide.min.js "></script>
+    <script src="vendor/vivus/vivus.min.js "></script>
+
+    <!-- Theme Base, Components and Settings -->
+    <script src="js/theme.js "></script>
+
+    <!-- Circle Flip Slideshow Script -->
+    <script src="vendor/circle-flip-slideshow/js/jquery.flipshow.min.js "></script>
+    <!-- Current Page Views -->
+    <script src="js/views/view.home.js "></script>
+
+    <!-- Theme Custom -->
+    <script src="js/custom.js "></script>
+
+    <!-- Theme Initialization Files -->
+    <script src="js/theme.init.js "></script>
+
+
+
+</body>
+
+</html>
